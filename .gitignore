@@ -1,0 +1,52 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local model downloads and caches
+backend/models/
+.cache/
+.huggingface/
+
+# Local documents, database exports, and uploads
+*.pdf
+*.docx
+*.sql
+*.dump
+*.backup
+uploads/
+reports/
+
+# OS / editor state
+.DS_Store
+Thumbs.db
+.zed/
+.idea/
+.vscode/
+
+# Misc
+*.log
+coverage/
