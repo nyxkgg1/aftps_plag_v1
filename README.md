@@ -9,7 +9,7 @@ Clone the repository, then install the tools for your operating system.
 ### Garuda Linux / Arch (fish)
 
 ```fish
-sudo pacman -Syu
+sudo pacman -Syu      
 sudo pacman -S git postgresql nodejs npm
 ```
 
